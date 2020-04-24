@@ -1,0 +1,294 @@
+<html>
+<head>
+	<title>Veg Blueberry Muffins</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: chocolate;
+			color: white;
+			font-weight: 550;
+			margin: 0px;
+			padding:0px;
+		}
+
+		nav {
+			height: 50px;
+			width: 100%;
+			background-color: brown;
+			line-height: 50px;
+			border-radius: 10px;
+		}
+
+		nav ul {
+			list-style: none;
+			padding-left:0;
+			display: flex;
+			justify-content: space-around;
+		}
+
+		nav ul li {
+			background-color: lightbrown;
+			width: 20%;
+			text-align: center;
+			border-radius: 10px;
+		}
+
+		nav li:hover {
+			background-color: lightgreen;
+		}
+
+		nav a {
+			text-decoration: none;
+			color: white;
+			display: block;
+			font-size:20px;
+		}
+
+		#Intro {
+			text-align: center;
+			color: white;
+		}
+
+		main article {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+			margin: 0px 20px;
+		}
+
+		#blog-text {
+			width: 50%;
+			padding: auto;
+			font-size: 22px;
+			font-weight: 700;
+			color: white;
+		}
+
+		#blog-text p {
+			margin: 20px 10px;
+		}
+
+		.card {
+			background-color: white;
+			color: Blue;
+			border-radius: 10px;
+			padding-bottom: 5px;
+			font-weight: 700;
+		}
+
+		.card h2 {
+			text-align: center;
+			color: red;
+		}
+
+		img {
+			border-radius: 25px;
+		}
+
+		.center {
+			height: 75%;
+			width: 100%;
+		}
+
+		#conclusion {
+			margin: 20px;
+			text-align: center;
+			color: white;
+			font-weight: 800;
+		}
+
+		footer {
+			background-color: brown;
+			text-align: center;
+			font-size: 18px;
+			padding: 7px;
+		}
+
+		@media screen and (max-width: 400px){
+			#blog-text {
+				width: 50%;
+				font-size: 12px;
+				font-weight: 700;
+				color: red;
+			}
+			
+			body {
+				background-color: white;
+			}
+			
+			footer {
+				background-color: brown;
+				text-align: center;
+				font-size: 11px;
+				padding: 7px;
+			}
+			
+			img {
+				border-radius: 10px;
+				width: 100%;
+			}
+			
+			main article {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+				margin: 0px 7px;
+			}
+			
+			nav a {
+				text-decoration: none;
+				color: white;
+				display: block;
+				font-size:10px;
+			}
+			
+			nav {
+				height: 25px;
+				width: 100%;
+				background-color: brown;
+				line-height: 25px;
+				border-radius: 5px;
+			}
+			
+			.center {
+				height: 20%;
+				width: 100%;
+			}
+		}
+
+		@media screen and (max-width: 750px){
+			#blog-text {
+				width: 50%;
+				font-size: 12px;
+				font-weight: 700;
+				color: blue;
+			}
+			
+			body {
+				background-color: lightgreen;
+			}
+			
+			footer {
+				background-color: brown;
+				text-align: center;
+				font-size: 11px;
+				padding: 7px;
+			}
+			
+			img {
+				border-radius: 10px;
+				width: 100%;
+			}
+			
+			main article {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+				margin: 0px 7px;
+			}
+			
+			nav a {
+				text-decoration: none;
+				color: white;
+				display: block;
+				font-size:10px;
+			}
+			
+			nav {
+				height: 25px;
+				width: 100%;
+				background-color: brown;
+				line-height: 25px;
+				border-radius: 5px;
+			}
+			
+			.center {
+				height: 20%;
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#intro">Intro</a></li>
+			<li><a href="#Ingre">Ingredients</a></li>
+			<li><a href="#steps">Steps</a></li>
+			<li><a href="#links">More Links</a></li>
+		</ul>
+	</nav>
+	<main>
+		<header id="intro">
+		<h1><em><strong>Veg Blueberry Muffin Recipe</strong></em></h1>
+		<img src="https://i.imgur.com/xASJFKq.jpg" alt="Blueberry Muffins">
+		</header>
+		<article>
+			<section id="blog-text">
+				<p>
+					Hello friends, Want some tasty sweet Veg dish. I came up with the recipe of <em>Veg Blueberry Muffins</em>. 
+					Veg Blueberry Muffins is a type of snacks that are served mainly as an small party or picnic dish. 
+					Muffins are small sponge cake and may come in different flavours. Muffins are my favourite snacks. 
+					As I am vegetarian and I like Blueberries, this Veg Blueberry Muffins is my all time favourite.
+				</p>
+				<p>
+					So lets get started with the recipe to make this wonderful dish. 
+					First be ready with the given Ingredients and then go through the Steps written below.
+				</p>
+			</section>
+				<section>
+					<section class="card" id="Ingre">
+						<em><h2><strong>Ingredients Required :</strong></h2></em>
+					<!-- Mentioning Ingredients required using Unordered List -->
+						<ul class="list-ing">  
+							<li>2 cups Flour</li>
+							<li>1 and 1/2 teaspoon Baking Soda</li>
+							<li>1/2 teaspoon Salt</li>
+							<li>2 Lemons</li>
+							<li>1 cup Sugar</li>
+							<li>1 cup Milk</li>
+							<li>1/3 cup Canola Oil</li>
+							<li>1 teaspoon Lemon Extract</li>
+							<li>1 table spoon White Vinegar</li>
+							<li>1 cup Fresh Blueberries</li>
+						</ul>
+						<br>
+					</section>
+					<section class="card" id="steps">
+						<em><h2><strong>Steps to Follow :</strong></h2></em>
+						<!-- Mentioning Steps using Ordered List -->
+						<ol class="list-steps">
+						<!-- Putting emoji at the end of some steps -->  
+								  <li>At the very first, heat the oven to 375F for 15 minutes and lightly grease the muffin tin.</li>
+								  <li>Take a Bowl and mix the <em>Flour, Baking Soda, Salt </em> and <em>Lemon Zest </em>.</li>
+								  <li>Take another bowl to mix the <em>Sugar, Milk, Oil, Lemon Extract</em> and <em>Vinegar</em>.</li>
+								  <li>Mix the dry ingredients with the wet ingredients and stir it well until it get combined.</li>
+								  <li>Gently fold in the <em>Blueberries</em>.</li>
+								  <li>Fill the muffin tin to 2/3rd of the full.</li>
+								  <li>Bake it for 22 minutes and after baking, take it out from oven and let it cool for 5 minutes.</li>
+								  <li>Remove the muffins from the tin and ENJOY !!.</li>
+						</ol>
+					</section>
+				</section>
+		</article>
+	</main>
+	<section id="conclusion"><br>
+		<img src="https://i.imgur.com/Rve0ABM.jpg" alt="Mixing Ingredients" class="center"><br><br>
+		So if you had follow all the above steps than your dish is definately ready to eat. The muffins should look like brown in color from the top and should have soft texture.
+		Muffins also have sweety smell and it tastes like sweet bread with blueberry taste with little salty flavour. If your muffins are like that than don't wait to ENJOY it!!! &#x1F60B &#x1F60B &#x1F60B </strong><br><h3><em>Thank You.</em></h3>
+	</section>	
+		<section id="links">
+			Here are some other top links for the same recipe : <br>
+			<ul>
+				 <li><a href="https://www.mydarlingvegan.com/vegan-blueberry-muffins/">My Darling Vegan link for veg Blueberry Muffins Recipe</a></li>
+				 <li><a href="https://simple-veganista.com/vegan-blueberry-muffins/">Simple-Veganista link for veg Blueberry Muffins Recipe</a></li>
+				 <li><a href="https://www.connoisseurusveg.com/vegan-blueberry-muffins/">Connoisseurusveg link for veg Blueberry Muffins Recipe</a></li>
+				 <li><a href="https://www.noracooks.com/vegan-blueberry-muffins/">Noracooks link for veg Blueberry Muffins Recipe</a></li>
+				 <li><a href="https://www.bakerita.com/vegan-blueberry-muffins/">Bakerita link for veg Blueberry Muffins Recipe</a></li>
+			</ul>
+		</section>
+	<footer>
+		Page created by Aditya Raj.
+	</footer>
+</body>
+</html>
